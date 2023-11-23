@@ -9,16 +9,17 @@ next.addEventListener('click', function(){
 
     if (itemAttivo < items.length -1){
 
-        items[itemAttivo].classList.remove(".active");
+        items[itemAttivo].classList.remove("active");
 
         itemAttivo ++;
 
-        items[itemAttivo].classList.add(".active");
+        items[itemAttivo].classList.add("active");
 
         if( itemAttivo === items.length -1 ){
             next.classList.add(".end")
         }
     }
 });
+
 
 
